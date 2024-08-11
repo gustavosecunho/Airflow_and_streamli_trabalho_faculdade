@@ -5,9 +5,9 @@ import sqlite3
 from sklearn.preprocessing import StandardScaler
 
 # Configurações dos caminhos
-model_path = '/home/gustavo/Documentos/trabalho_airflow/modelo/car_price_model.pkl'
-scaler_path = '/home/gustavo/Documentos/trabalho_airflow/modelo/scaler.pkl'
-db_path = '/home/gustavo/Documentos/trabalho_airflow/data/carsAd.db'
+model_path = 'trabalho_airflow/modelo/car_price_model.pkl'
+scaler_path = 'trabalho_airflow/modelo/scaler.pkl'
+db_path = 'trabalho_airflow/data/carsAd.db'
 
 # Carregando o modelo treinado e o scaler
 model = joblib.load(model_path)
