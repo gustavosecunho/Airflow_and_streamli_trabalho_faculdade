@@ -20,12 +20,12 @@ default_args = {
 }
 
 # Caminhos para os arquivos
-path = "/home/gustavo/Documentos/trabalho_airflow/data"
+path = "trabalho_airflow/data"
 path_db_producao = os.path.join(path, "carsProd.db")
 path_csv_tempora = os.path.join(path, "cars.csv")
 path_db_saida = os.path.join(path, "carsAd.db")
-path_model = os.path.join(path, "/home/gustavo/Documentos/trabalho_airflow/modelo/car_price_model.pkl")
-path_scaler = os.path.join(path, "/home/gustavo/Documentos/trabalho_airflow/modelo/scaler.pkl")
+path_model = os.path.join(path, "trabalho_airflow/modelo/car_price_model.pkl")
+path_scaler = os.path.join(path, "trabalho_airflow/modelo/scaler.pkl")
 path_csv_treino = os.path.join(path, "training_history.csv")
 
 # Verifica a existência do banco de dados de produção
